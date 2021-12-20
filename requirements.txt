@@ -1,0 +1,5 @@
+robin_stocks.robinhood==2.1.0
+QuantLib ==1.2.4
+pandas 
+numpy
+requests
