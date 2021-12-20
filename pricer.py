@@ -96,9 +96,8 @@ def calculate_theor(symbol,strike,optionType,expirationDate,underlying_open,mode
     american_option.setPricingEngine(ql.BaroneAdesiWhaleyApproximationEngine(bsm_process))
     val=american_option.NPV()
 
-  #
+  #Bjerksund-Stensland Approximation
   elif model=='BJST':
-    ql.BjerksundStenslandApproximationEngine
     american_option.setPricingEngine(ql.BjerksundStenslandApproximationEngine(bsm_process))
     val=american_option.NPV()
  

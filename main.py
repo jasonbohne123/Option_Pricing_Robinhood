@@ -14,7 +14,6 @@ def get_options():
   '''
  
   options=[]
-
   for x in rs.get_open_option_positions():
       response=requests.get(x['option'])
       expiration=response.json()['expiration_date']
