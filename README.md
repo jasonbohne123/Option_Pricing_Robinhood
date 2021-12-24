@@ -4,4 +4,6 @@ To get started run `python main.py` in your terminal. After authenticating your 
 
 From here, you can price these options using different approximations for the true value. Right now three methods are supported, Black-Scholes, Barone-Adesi- Whaley and Bjerksund-Stensland.
 
+Find the full tutorial here: https://medium.com/@jbohne822/pricing-options-on-robinhood-using-robinstocks-and-quantlib-7bc765088ced
+
 _Disclaimer:_ _Portions of the code are reused from both RobinStocks and QuantLib. This post is not affiliated with any of the mentioned projects or organizations. Use any code at your own risk_
